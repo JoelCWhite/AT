@@ -1,6 +1,4 @@
-titleAT = document.querySelectorAll('td.titleAT');
 inputAT = document.querySelector('input#searchTitle');
-//nlistItems = document.querySelectorAll('tr.tableData');
 limitResultsAT = document.querySelector('input#limitResults');
 
 function searchDefault(){
