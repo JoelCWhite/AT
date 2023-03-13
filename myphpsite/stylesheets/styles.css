@@ -1,0 +1,83 @@
+/* test begin */
+
+ul, h1, h2, h3, h4, a{
+		padding: 0px;
+		margin: 0px;
+		font-family: 'Viaoda Libre', cursive;
+		color: black;
+}
+
+h1 {
+	font-size: 0.9em;
+}
+
+h3.title_within_content_box {
+	margin-bottom: 0px;
+}
+
+a{
+	text-decoration: none;
+	color:#161616;
+}
+
+ul {
+	list-style:none;
+}
+
+.tableHeader {
+	background:grey;
+}
+
+.tableData {
+	background:rgb(248, 246, 246);
+}
+
+.tableData:nth-child(even) {
+	background:rgb(231, 229, 229);
+}
+
+td, th {
+	padding: 10px;
+	text-align:left;
+	border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+tbody {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.tableData:hover  {
+	background-color: red;
+}
+
+table {
+	background: black;
+	border-collapse: collapse;
+	width:800px;
+}
+
+.smallImage {
+	width: 60px;
+}
+
+.searchInputSection {
+	display: inline-flex;
+	margin: 20px 0px 30px 0px;
+}
+
+.titleForTest {
+	font-size: 2rem;
+}
+
+#limitResults {
+	width: 40px;
+}
+
+button, input {
+	margin:0px 5px 0px 5px;
+}
+
+/* test end */
+
